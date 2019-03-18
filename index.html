@@ -17,7 +17,7 @@
     </thead>
     <tfoot>
         <tr>
-            <td>© 2014 основы HTML</td>
+            <td colspan="3">© 2014 основы HTML</td>
         </tr>
     </tfoot>
     <tr>
@@ -36,9 +36,9 @@
             <h2 align="center">Основной контент</h2>
 
             <p>
-                <img align="right" width="100px" src="https://muzei-mira.com/templates/museum/images/paint/bogatyri-vasnecov+.jpg">
+                <img alt="Три Богатыря" align="right" width="100px" src="https://muzei-mira.com/templates/museum/images/paint/bogatyri-vasnecov+.jpg">
 
-                Давно выяснено, что при
+                &nbsp&nbsp&nbsp&nbsp&nbspДавно выяснено, что при
                 оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что
                 тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и
                 пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст..
@@ -52,56 +52,58 @@
                 <br>
                 <li><b>Жирный пункт</b></li>
             </ul>
-            <h2>Список товаров в магазины</h2>
-            <table width="100%" border="1px" cellspacing="0" >
+            <h3>Список товаров в магазины</h3>
+            <table  align="center" width="100%" border="1px" cellspacing="0" >
                 <thead>
                     <tr>
-                        <td><b>Номер</b></td>
-                        <td><b>Название</b></td>
-                        <td><b>Цена</b></td>
+                        <td align="center" ><b>Номер</b></td>
+                        <td align="center" ><b>Название</b></td>
+                        <td align="center" ><b>Цена</b></td>
                     </tr>
                 </thead>
                 <tr>
-                    <td>1</td>
-                    <td>Меч</td>
-                    <td>10</td>
+                    <td align="center"  >1</td>
+                    <td align="center"  >Меч</td>
+                    <td align="center"  >10</td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>Булава</td>
-                    <td>5</td>
+                    <td align="center" >2</td>
+                    <td align="center" >Булава</td>
+                    <td align="center" >5</td>
                 </tr>
                 <tr>
-                    <td>3</td>
-                    <td>Верный конь</td>
-                    <td>15</td>
+                    <td align="center" >3</td>
+                    <td align="center" >Верный конь</td>
+                    <td align="center" >15</td>
                 </tr>
             </table>
         </td>
         <td  valign="top" width="200px">
-            <label for="login"> Логин:</label>
-            <br>
-            <input type="text" id="login" name="login">
-            <br>
+            <form action="" method="post">
+                <label for="login"> Логин:</label>
+                <br>
+                <input placeholder="Логин" type="text" id="login" name="login">
+                <br>
 
-            <label for="password"> Пароль:</label>
-            <br>
+                <label for="password"> Пароль:</label>
+                <br>
 
-            <input type="text" id="password" name="login">
-            <br>
+                <input placeholder="Пароль" type="text" id="password" name="login">
+                <br>
 
-            <select id="role" name="role">
-                <option selected>Admin</option>
-                <option>Tester</option>
-                <option>User</option>
-            </select>
-            <br>
+                <select id="role" name="role">
+                    <option selected>Admin</option>
+                    <option>Tester</option>
+                    <option>User</option>
+                </select>
+                <br>
 
-            <input type="checkbox" id="remember" name="remember">
-            <label for="remember">Запомни меня</label>
-            <br>
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Запомни меня</label>
+                <br>
 
-            <button type="submit" name="submit" value="submit">Вход</button>
+                <button type="submit" name="submit" value="submit">Вход</button>
+            </form>
         </td>
 
 
