@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b41d244-37d7-4e42-b58d-e96e360fbb63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Задание 2/Вариант 1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задание 2/Вариант 1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задание 2/Вариант 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задание 2/Вариант 2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задание 2/Вариант 3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задание 2/Вариант 3/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задание 2/Вариант 4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задание 2/Вариант 4/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Задание 1/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +24,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 4/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+            <state relative-caret-position="345">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 4/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -31,6 +66,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,6 +87,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Задание 2/Вариант 1/style.css" />
+        <option value="$PROJECT_DIR$/Задание 2/Вариант 1/index.html" />
+        <option value="$PROJECT_DIR$/Задание 2/Вариант 2/index.html" />
+        <option value="$PROJECT_DIR$/Задание 2/Вариант 2/style.css" />
+        <option value="$PROJECT_DIR$/Задание 2/Вариант 3/style.css" />
+        <option value="$PROJECT_DIR$/Задание 2/Вариант 3/index.html" />
+        <option value="$PROJECT_DIR$/Задание 2/Вариант 4/index.html" />
+        <option value="$PROJECT_DIR$/Задание 2/Вариант 4/style.css" />
       </list>
     </option>
   </component>
@@ -65,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,17 +116,47 @@
               <item name="Основы HTML" type="b2602c69:ProjectViewProjectNode" />
               <item name="Основы HTML" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Основы HTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Основы HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="Задание 2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Основы HTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Основы HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="Задание 2" type="462c0819:PsiDirectoryNode" />
+              <item name="Вариант 1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Основы HTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Основы HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="Задание 2" type="462c0819:PsiDirectoryNode" />
+              <item name="Вариант 2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Основы HTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Основы HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="Задание 2" type="462c0819:PsiDirectoryNode" />
+              <item name="Вариант 4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Задание 1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,18 +182,19 @@
       <updated>1551504727606</updated>
       <workItem from="1551504733338" duration="2986000" />
       <workItem from="1551673563763" duration="167000" />
-      <workItem from="1552882610603" duration="756000" />
+      <workItem from="1552882610603" duration="1110000" />
+      <workItem from="1553881164119" duration="7928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3909000" />
+    <option name="totallyTimeSpent" value="12191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -132,7 +206,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32882273" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32882273" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -143,10 +217,69 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Задание 1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+        <state relative-caret-position="416">
+          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 1/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 3/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <folding>
+            <marker date="1553894237762" expanded="true" signature="638:907" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 4/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Задание 2/Вариант 2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
         </state>
       </provider>
     </entry>
