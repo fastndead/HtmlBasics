@@ -53,27 +53,34 @@
     var dash = length/100 * 75;
     var grow = true
     var offset = length/100 * 25
-    // setInterval(function() {
-    //     if (grow)
-    //     {
-    //         gap -= 3;
-    //         dash += 3;
-    //         myPath.style.strokeDasharray = dash + ' ' + gap;
-    //         if (dash >= length){
-    //             grow = !grow;
-    //         }
-    //     }else {
-    //         gap += 3;
-    //         dash -= 3;
-    //         myPath.style.strokeDasharray = dash + ' ' + gap;
-    //         if (gap >= length){
-    //             grow = !grow;
-    //         }
-    //     }
-    //
-    //     if (offset >= length)
-    //     {
-    //         ofс
+    setInterval(function() {
+        if (grow)
+        {
+            gap -= 3;
+            dash += 3;
+            myPath.style.strokeDasharray = dash + ' ' + gap;
+            if (dash >= length){
+                grow = !grow;
+            }
+        }else {
+            gap += 3;
+            dash -= 3;
+            myPath.style.strokeDasharray = dash + ' ' + gap;
+            if (gap >= length){
+                grow = !grow;
+            }
+        }
+
+        if (offset >= length)
+        {
+            offset = 0;
+        }
+        offset += 5;
+        myPath.style.strokeDashoffset = offset + ' ';
+        text.innerHTML = parseInt(dash/(length/100))+'%';
+
+
+    },1000/60);
 </script>
 
 
