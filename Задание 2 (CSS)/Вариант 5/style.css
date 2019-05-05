@@ -1,0 +1,33 @@
+table {
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: #ffa21c;
+}
+
+td {
+    border: 1px solid black;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+td:hover::after {
+    content: "";
+    position: absolute;
+    background-color: #ffa21c;
+    left: 0;
+    top: -5000px;
+    height: 10000px;
+    width: 100%;
+    z-index: -1;
+}
+
+.circle{
+    border-radius: 100%;
+    margin: auto;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+}

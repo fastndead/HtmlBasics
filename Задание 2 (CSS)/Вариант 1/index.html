@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>CSS Basics</title>
 </head>
 <body>
@@ -43,7 +44,16 @@
     <div class="circle gainsboro" >
         5
     </div>
-
 </div>
+    <button type=button onclick='lol()'>Log Out</button>
+    <div width="560" height="315" id="tag-id"></div>
 </body>
+
+<script>
+function lol() {
+    var div = document.getElementById("tag-id");
+    div.innerHTML = `<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0AfB0bK0Xzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen &autoplay="1"></iframe>`;
+}
+
+</script>
 </html>
