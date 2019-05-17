@@ -1,28 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Основы HTML</title>
+    <title>Basic HTML Epam</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Stepan Tuchin">
 </head>
 <body>
-<table cellpadding="5px" cellspacing="0"  border="1px" width="100%">
-    <thead height="100px">
-        <tr>
-            <td colspan="3" align="center" >
-                <h1>
-                        Макет задания по "Основы HTML"
-                </h1>
-            </td>
-        </tr>
-    </thead>
-    <tfoot>
-        <tr>
-            <td colspan="3">© 2014 основы HTML</td>
-        </tr>
-    </tfoot>
+<table border="1" cellspacing="0" cellpadding="5" width = "100%" >
+    <tbody>
     <tr>
-        <td valign="top"  width="200px">
-            <h2>Меню</h2>
+        <td colspan="3" height = "100" align="center" ><h1><p>Макет задания по "Основы HTML"</p></h1>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top"  width="200">
+            <h2><p >Меню</p></h2>
             <ul type="none" >
                 <li><a href="">Главная</a></li>
                 <li><a href="">Продукты</a></li>
@@ -33,12 +25,10 @@
             </ul>
         </td>
         <td valign="top">
-            <h2 align="center">Основной контент</h2>
-
+            <h2 align="center"><p>Основной контент</p></h2>
             <p>
-                <img alt="Три Богатыря" align="right" width="100px" src="https://muzei-mira.com/templates/museum/images/paint/bogatyri-vasnecov+.jpg">
-
-                &nbsp&nbsp&nbsp&nbsp&nbspДавно выяснено, что при
+                <img align="right" width="100" src="https://muzei-mira.com/templates/museum/images/paint/bogatyri-vasnecov+.jpg" alt="three heroes">
+                &nbsp;&nbsp;&nbsp;&nbsp;Давно выяснено, что при
                 оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что
                 тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и
                 пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст..
@@ -48,68 +38,72 @@
                 версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
             </p>
             <ul>
-                <li><i>Курсивный пункт</i><sup>2</sup></li>
-                <br>
+                <li><i>Курсивный пункт</i><sup>2</sup><br></li>
                 <li><b>Жирный пункт</b></li>
             </ul>
-            <h3>Список товаров в магазины</h3>
-            <table  align="center" width="100%" border="1px" cellspacing="0" >
+
+            <table border="1" cellspacing="0" cellpadding="1" width = "100%" >
+                <caption><h3 align = "left"><p>Список товаров в магазине</p></h3></caption>
                 <thead>
-                    <tr>
-                        <td align="center" ><b>Номер</b></td>
-                        <td align="center" ><b>Название</b></td>
-                        <td align="center" ><b>Цена</b></td>
-                    </tr>
+                <tr>
+                    <th>Номер</th>
+                    <th>Название</th>
+                    <th>Цена</th>
+                </tr>
                 </thead>
+                <tbody>
                 <tr>
-                    <td align="center"  >1</td>
-                    <td align="center"  >Меч</td>
-                    <td align="center"  >10</td>
+                    <td align = "center">1</td>
+                    <td>Меч</td>
+                    <td align = "center">10</td>
                 </tr>
                 <tr>
-                    <td align="center" >2</td>
-                    <td align="center" >Булава</td>
-                    <td align="center" >5</td>
+                    <td align = "center">2</td>
+                    <td>Булава</td>
+                    <td align = "center">5</td>
                 </tr>
                 <tr>
-                    <td align="center" >3</td>
-                    <td align="center" >Верный конь</td>
-                    <td align="center" >15</td>
+                    <td align = "center">3</td>
+                    <td>Верный конь</td>
+                    <td align = "center">15</td>
                 </tr>
+                </tbody>
             </table>
         </td>
-        <td  valign="top" width="200px">
-            <form action="" method="post">
-                <label for="login"> Логин:</label>
+        <td width = "200" valign="top">
+            <form method="post" action="/registration">
+                <div>
+                    <label for = "login">
+                        Login:
+                    </label>
+                    <input name="login" id="login" type="text" size="25" maxlength="30" placeholder="login"/> <br />
+                </div>
                 <br>
-                <input placeholder="Логин" type="text" id="login" name="login">
-                <br>
+                <div>
+                    <label for = "password">
+                        Password:
+                    </label>
+                    <input name="password" id="password" type="password" size="25" maxlength="30" placeholder="******" />
 
-                <label for="password"> Пароль:</label>
+                </div>
                 <br>
-
-                <input placeholder="Пароль" type="text" id="password" name="login">
-                <br>
-
-                <select id="role" name="role">
-                    <option selected>Admin</option>
-                    <option>Tester</option>
-                    <option>User</option>
+                <div> <select name="menu" size="1" style = "width:100%" autofocus>
+                    <option selected value="first">Admin</option>
+                    <option value="second">Tester</option>
+                    <option value="third">User</option>
                 </select>
+                </div>
                 <br>
-
-                <input type="checkbox" id="remember" name="remember">
-                <label for="remember">Запомни меня</label>
-                <br>
-
-                <button type="submit" name="submit" value="submit">Вход</button>
+                <input name="remember" id="remember" type="checkbox"/> <label for = "remember">Запомни меня </label><br />
+                <button type="submit" style="width:100%">Вход</button>
             </form>
         </td>
-
-
     </tr>
-
-
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="3" align="left">&copy; 2014 Основы HTML</td>
+    </tr>
+    </tfoot>
 </table>
 </body>
-</html>
